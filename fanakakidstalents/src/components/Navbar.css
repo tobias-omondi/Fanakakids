@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -7,10 +9,12 @@
     background-image: url(/src/Asset/fanakakidstalent.jpeg);
     background-position: center;
     background-size: cover;
+    transition: filter 0.3s ease;
     width: 100%;
     min-height: 100vh;
     overflow: hidden;
     padding: 20px 15%;
+    filter: grayscale(70%);
 }
 .logo{
     width: 110px;
@@ -29,11 +33,14 @@ nav ul li{
     margin: 10px 15px;
 }
 nav ul li a {
-    color: #fcd7d7;
+    color: #fff;
     text-decoration: none;
     margin-right: 15px;
     font-weight: 500;
     font-size: 20px;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 .gallery-btn{
     display: inline-block;
@@ -46,7 +53,8 @@ nav ul li a {
     border-top-right-radius: 0;
 }
 .Aboutus-btn{
-    display: inline-block;
+    display: block;
+    margin: 0 auto;
     text-decoration: none;
     padding: 14px 40px;
     color: #fff;
@@ -55,7 +63,27 @@ nav ul li a {
     border-radius: 30px;
     border-top-right-radius: 0;
     margin-top: 2rem;
+    text-align: center;
+    width: 20%;
 } 
 .content{
-    margin-top: 9rem;
+    margin-top: 6rem;
+}
+.content h1  {
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    backdrop-filter: blur(2px);
+}
+.content h3 {
+  font-size: 1.4rem;
+  font-weight: 800;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  backdrop-filter: blur(30%);
+  backdrop-filter: blur(3px);
 }
