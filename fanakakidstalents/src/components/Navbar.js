@@ -18,7 +18,7 @@ const Navbar = () => {
         </div>
       </nav>
       <div className='content'>
-        <h1>Best <br/> Class  To Enroll,</h1>
+        <h1>Your Music  and  <br/>Dance Journey Starts Here.</h1>
         <h3>Discover the harmonious world of ballet, piano, and violin.<br/> Find expert instructors, inspiring classes, and a vibrant community to nurture your passion.</h3>
         <a href='#' className='Aboutus-btn'>ABOUT US</a>
       </div>
