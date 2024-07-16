@@ -10,6 +10,7 @@ const Navbar = () => {
         <img src={logo} alt='folder' className='logo'/>
         <ul>
           <li><Link to='about' smooth={true} duration={500}>ABOUT US</Link></li>
+          <li><Link to='events' smooth={true} duration={500}>EVENT</Link></li>
           <li><Link to='classes' smooth={true} duration={500}>CLASSES</Link> </li>
           <li><Link to='feedback' smooth={true} duration={500}>FEEDBACK</Link> </li>
         </ul>
