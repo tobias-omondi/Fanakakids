@@ -3,7 +3,7 @@ import React from 'react'
 const Feedback = () => {
   return (
     <div>
-      
+      <h1>Parents Feedback</h1>
     </div>
   )
 }

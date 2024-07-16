@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link, animateScroll as scroll } from 'react-scroll';
 import './Navbar.css'
 import logo from '../Asset/logo.png'
 
@@ -8,10 +9,9 @@ const Navbar = () => {
       <nav>
         <img src={logo} alt='folder' className='logo'/>
         <ul>
-          <li><a href='#'>HOME</a></li>
-          <li><a href='#'>ABOUT US</a></li>
-          <li><a href='#'>CLASSES</a></li>
-          <li><a href='#'>REVIEW</a></li>
+          <li><Link to='about' smooth={true} duration={500}>ABOUT US</Link></li>
+          <li><Link to='classes' smooth={true} duration={500}>CLASSES</Link> </li>
+          <li><Link to='feedback' smooth={true} duration={500}>FEEDBACK</Link> </li>
         </ul>
         <div>
           <a href='/gallery'className='gallery-btn'>GALLERY</a>
