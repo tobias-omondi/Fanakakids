@@ -16,9 +16,9 @@ const About = () => {
           <h3>FanakaKids Talent Academy: Nurturing Young Artists.</h3>
           <p>{showMore ? fullText : summary}</p>
           {showMore ? (
-            <button onClick={() => setShowMore(false)}>Read Less</button>
+            <button className='arrow-wrapper' onClick={() => setShowMore(false)}>Read Less</button>
           ) : (
-            <button onClick={() => setShowMore(true)}>Read More</button>
+            <button className='arrow-wrapper'  onClick={() => setShowMore(true)}>Read More</button>
           )}
         </div>
       </menu>
