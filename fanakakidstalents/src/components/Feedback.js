@@ -4,8 +4,8 @@ const Feedback = () => {
   return (
     <div className='Feedback-main'>
       <h1>Parents Feedback</h1>
-      <div className='main-feedback'>
-        
+      <div className='main-slider'>
+
       </div>
     </div>
   )
