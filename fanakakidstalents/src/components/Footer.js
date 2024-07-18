@@ -2,6 +2,8 @@ import React from 'react';
 import './Footer.css';
 import logofooter from "../Asset/fanakaclub-high-resolution-logo-transparent.png";
 import { SocialIcon } from 'react-social-icons';
+import { MdEmail , MdAddIcCall } from "react-icons/md";
+import { FaLocationDot } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -16,9 +18,27 @@ const Footer = () => {
       </div>
       <div className='links-page'>
       <div><a href='about'>ABOUT US</a></div>
-      <div><a href='about'>ABOUT US</a></div>
-      <div><a href='about'>ABOUT US</a></div>
-      <div><a href='about'>ABOUT US</a></div>
+      <div><a href='event'>EVENT</a></div>
+      <div><a href='classes'>CLASSES</a></div>
+      <div><a href='feedback'>FEEDBACK</a></div>
+      <div><a href='gallery'>GALLERY</a></div>
+      </div>
+      <div className='contacts-main'>
+        <div>
+          <h3>CONTACT US</h3>
+        </div>
+
+        <div className='phones-container'>
+          <MdAddIcCall />
+          <h4>number:<br/>
+          <span>| +254 741041580</span></h4>
+        </div>
+        <div className='email-container'>
+          <MdEmail />
+          <h4>EMAIL:<br/>
+            <span>fanakakidsinfo@gmail.com</span>
+          </h4>
+        </div>
       </div>
     </div>
   );

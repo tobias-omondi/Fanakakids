@@ -5,9 +5,10 @@
 }
 .main-footer{
     background-color: black;
-    margin-top: 12%;
+    margin-top: 10%;
     color: #fff;
     display: flex;
+    justify-content: space-between;
 }
 .logo-footer{
     margin-left: 5rem;
@@ -25,5 +26,13 @@
 }
 .links-page{
     color: #ffff;
-    display: block;
+    display: inline-block;
+    margin-top: 5%;   
+}
+.links-page a {
+    color: #ffff;
+}
+.contacts-main{
+    margin-top: 5%;
+    margin-right: 3rem;
 }
