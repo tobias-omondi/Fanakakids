@@ -14,3 +14,25 @@
     font-weight: 500;
     font-style: normal;
 }
+.Slider{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.main-slider {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 20%;
+    align-items: center;
+}
+.main-slider img{
+    width: 300px;
+    max-height: 400px;
+}
+.main-slider h3 {
+    text-align: center;
+}
+.main-slider p {
+    text-align: center;
+}
