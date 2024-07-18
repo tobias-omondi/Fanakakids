@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-footer{
+    background-color: black;
+    margin-top: 12%;
+    color: #fff;
+    display: flex;
+}
+.logo-footer{
+    margin-left: 5rem;
+    display: block;
+}
+.logo-footer img {
+    width: 200px;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+    padding: 20px;
+}
+.links-page{
+    color: #ffff;
+    display: block;
+}

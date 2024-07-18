@@ -6,6 +6,7 @@ import AvatarAsset1 from '../Asset/parents2.jpeg';
 import AvatarAsset2 from '../Asset/parents3.jpeg';
 import AvatarAsset3 from '../Asset/parents4.jpeg';
 import { IoIosArrowRoundBack, IoIosArrowRoundForward } from 'react-icons/io';
+import Footer from './Footer';
 
 const feedbackData = [
   {
@@ -67,6 +68,9 @@ const Feedback = () => {
  <div className='btn-Gallery'>
   <button type='submit'>Gallery</button>
 </div> 
+<div>
+  <Footer />
+</div>
     </div>
   );
 }
