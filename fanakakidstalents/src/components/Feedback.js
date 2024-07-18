@@ -4,6 +4,7 @@ import AvatarAsset from '../Asset/parents1.jpeg';
 import AvatarAsset1 from '../Asset/parents2.jpeg';
 import AvatarAsset2 from '../Asset/parents3.jpeg';
 import AvatarAsset3 from '../Asset/parents4.jpeg';
+import { IoIosArrowRoundBack , IoIosArrowRoundForward } from "react-icons/io";
 
 const feedbackData = [
   {
@@ -45,6 +46,11 @@ const Feedback = () => {
           ))}
         </div>
       </div>
+
+      <div className='btn-Gallery'>
+        <button type='submit'>Gallery</button>
+      </div>
+
     </div>
   );
 }
