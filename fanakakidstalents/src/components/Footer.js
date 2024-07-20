@@ -28,7 +28,7 @@ const Footer = () => {
       </div>
       <div className='contacts-main'>
         <div>
-          <h3>CONTACT US</h3>
+          <h3 style={{cursor:'pointer'}}>CONTACT US</h3>
         </div>
 
         <div className='phones-container' style={{cursor:'pointer'}}>
