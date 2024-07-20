@@ -3,10 +3,13 @@ import './Footer.css';
 import logofooter from "../Asset/fanakaclub-high-resolution-logo-transparent.png";
 import { SocialIcon } from 'react-social-icons';
 import { MdEmail , MdAddIcCall } from "react-icons/md";
-import { FaLocationDot } from "react-icons/fa6";
 
 const Footer = () => {
+  
+  const currentYear = new Date().getFullYear();
+
   return (
+    <div className='Footer-copy'>
     <div className='main-footer'>
       <div className='logo-footer'>
         <img src={logofooter} alt='logo' />
@@ -28,17 +31,19 @@ const Footer = () => {
           <h3>CONTACT US</h3>
         </div>
 
-        <div className='phones-container'>
+        <div className='phones-container' style={{cursor:'pointer'}}>
           <MdAddIcCall />
-          <h4>number:<br/></h4>
+          <h4 style={{cursor:'pointer'}}>number:<br/></h4>
           <span>| +254 741041580</span>
         </div>
-        <div className='email-container'>
+        <div className='email-container' style={{cursor:'pointer'}} >
             <MdEmail />
-            <h4>EMAIL:<br/> </h4>
+            <h4 style={{cursor:'pointer'}}>EMAIL:<br/> </h4>
                <span><a href="mailto:fanakakidsinfo@gmail.com">fanakakidsinfo@gmail.com</a></span>
         </div>
       </div>
+    </div>
+    <p style={{color:'white', textAlign:'center', backgroundColor:'black', marginTop:'5px'}}>&copy; {currentYear} fanakaclub. All rights reserved.</p>
     </div>
   );
 }
