@@ -20,6 +20,7 @@ const Footer = () => {
       </div>
       </div>
       <div className='links-page'>
+        <h2>OUR LINKS</h2>
       <div><a href='about'>ABOUT US</a></div> 
       <div><a href='event'>EVENT</a></div>
       <div><a href='classes'>CLASSES</a></div>
@@ -27,19 +28,14 @@ const Footer = () => {
       <div><a href='gallery'>GALLERY</a></div>
       </div>
       <div className='contacts-main'>
-        <div>
-          <h3 style={{cursor:'pointer'}}>CONTACT US</h3>
+          <h2>OUR CONTACT</h2>
+        <div className='phones-container'>
+          <h4 style={{cursor:'pointer'}}>number:<br/><br/></h4>
+          <span>|  <MdAddIcCall /> +254 741041580</span>
         </div>
-
-        <div className='phones-container' style={{cursor:'pointer'}}>
-          <MdAddIcCall />
-          <h4 style={{cursor:'pointer'}}>number:<br/></h4>
-          <span>| +254 741041580</span>
-        </div>
-        <div className='email-container' style={{cursor:'pointer'}} >
-            <MdEmail />
-            <h4 style={{cursor:'pointer'}}>EMAIL:<br/> </h4>
-               <span><a href="mailto:fanakakidsinfo@gmail.com">fanakakidsinfo@gmail.com</a></span>
+        <div className='email-container'>
+            <h4 style={{cursor:'pointer'}}>OUR EMAIL:<br/><br/> </h4>
+               <span><a href="mailto:fanakakidsinfo@gmail.com">   <MdEmail />  fanakakidsinfo@gmail.com</a></span>
         </div>
       </div>
     </div>

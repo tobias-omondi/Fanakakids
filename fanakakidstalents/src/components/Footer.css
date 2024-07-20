@@ -15,6 +15,7 @@
 .logo-footer{
     margin-left: 5rem;
     display: block;
+    margin-top: 5%;
 }
 .logo-footer img {
     width: 200px;
@@ -30,20 +31,44 @@
    margin-top: 5%;
    display: flex;
    flex-direction: column;
-   gap: 1.2rem;
+   gap: 1rem;
+}
+.links-page h2{
+    color: #ffff;
+    text-decoration: none;
+    padding: 20px 0px 20px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
 }
 .links-page a {
     color: #ffff;
     text-decoration: none;
-    padding: 10px 0px 20px;
+    padding: 20px 0px 20px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    /* padding: 10px 0px 20px;
     font-family: "Edu AU VIC WA NT Hand", cursive;
     font-optical-sizing: auto;
     font-weight: 500;
-    font-style: normal;
+    font-style: normal; */
 }
 .links-page a:hover{
     color: bisque;
     border-top-left-radius: 30px;
+}
+.contacts-main h2 {
+    color: #ffff;
+    text-decoration: none;
+    padding: 20px 0px 20px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
 .contacts-main{
     margin-top: 5%;
@@ -59,11 +84,16 @@
 .email-container a {
     color: #ffff;
     text-decoration: none;
-    padding: 10px 0px 20px;
+    padding: 20px 0px 20px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    /* padding: 10px 0px 20px;
     font-family: "Edu AU VIC WA NT Hand", cursive;
     font-optical-sizing: auto;
     font-weight: 500;
-    font-style: normal;
+    font-style: normal; */
 }
 .email-container a:hover{
     color: bisque;
