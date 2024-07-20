@@ -74,11 +74,11 @@
 }
 .Footer-copy p {
     gap: 20px;
-    font-size: 20px;
+    font-size: 16px;
     padding: 20px 0px 20px;
-    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
 }
 
