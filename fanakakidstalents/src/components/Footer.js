@@ -17,7 +17,7 @@ const Footer = () => {
       </div>
       </div>
       <div className='links-page'>
-      <div><a href='about'>ABOUT US</a></div>
+      <div><a href='about'>ABOUT US</a></div> 
       <div><a href='event'>EVENT</a></div>
       <div><a href='classes'>CLASSES</a></div>
       <div><a href='feedback'>FEEDBACK</a></div>
@@ -30,14 +30,13 @@ const Footer = () => {
 
         <div className='phones-container'>
           <MdAddIcCall />
-          <h4>number:<br/>
-          <span>| +254 741041580</span></h4>
+          <h4>number:<br/></h4>
+          <span>| +254 741041580</span>
         </div>
         <div className='email-container'>
-          <MdEmail />
-          <h4>EMAIL:<br/>
-            <span>fanakakidsinfo@gmail.com</span>
-          </h4>
+            <MdEmail />
+            <h4>EMAIL:<br/> </h4>
+               <span><a href="mailto:fanakakidsinfo@gmail.com">fanakakidsinfo@gmail.com</a></span>
         </div>
       </div>
     </div>

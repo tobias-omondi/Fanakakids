@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -25,14 +27,46 @@
     padding: 20px;
 }
 .links-page{
-    color: #ffff;
-    display: inline-block;
-    margin-top: 5%;   
+   margin-top: 5%;
+   display: flex;
+   flex-direction: column;
+   gap: 1.2rem;
 }
 .links-page a {
     color: #ffff;
+    text-decoration: none;
+    padding: 10px 0px 20px;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.links-page a:hover{
+    color: bisque;
+    border-top-left-radius: 30px;
 }
 .contacts-main{
     margin-top: 5%;
     margin-right: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem; 
+    font-weight: 500;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
+.email-container a {
+    color: #ffff;
+    text-decoration: none;
+    padding: 10px 0px 20px;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.email-container a:hover{
+    color: bisque;
+    border-top-left-radius: 30px;
+}
+
