@@ -34,7 +34,7 @@ const Footer = () => {
           <span>|  <MdAddIcCall /> +254 741041580</span>
         </div>
         <div className='email-container'>
-            <h4 style={{cursor:'pointer'}}>OUR EMAIL:<br/><br/> <br/></h4>
+            <h4 style={{cursor:'pointer'}}>OUR EMAIL:<br/><br/></h4>
                <span><a href="mailto:fanakakidsinfo@gmail.com">   <MdEmail />  fanakakidsinfo@gmail.com</a></span>
         </div>
       </div>
