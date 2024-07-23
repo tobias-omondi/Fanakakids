@@ -6,14 +6,14 @@
     box-sizing: border-box;
 }
 .main-footer{
-    background-color: black;
+    background-color: dodgerblue;
     margin-top: 10%;
     color: #fff;
     display: flex;
     justify-content: space-between;
 }
 .logo-footer{
-    margin-left: 5rem;
+    margin-left: 12rem;
     display: block;
     margin-top: 5%;
 }
@@ -100,7 +100,7 @@
     border-top-left-radius: 30px;
 }
 .Footer-copy {
-    background-color: black;
+    background-color: greenyellow;
 }
 .Footer-copy p {
     gap: 20px;
