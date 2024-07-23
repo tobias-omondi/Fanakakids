@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 .main-footer{
-    background-color: dodgerblue;
+    background-color: green;
     margin-top: 10%;
     color: #fff;
     display: flex;
@@ -49,7 +49,7 @@
     padding: 20px 0px 20px;
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
     /* padding: 10px 0px 20px;
     font-family: "Edu AU VIC WA NT Hand", cursive;
@@ -58,7 +58,7 @@
     font-style: normal; */
 }
 .links-page a:hover{
-    color: bisque;
+    color: rgb(250, 10, 158);
     border-top-left-radius: 30px;
 }
 .contacts-main h2 {
@@ -96,7 +96,7 @@
     font-style: normal; */
 }
 .email-container a:hover{
-    color: bisque;
+    color: rgb(250, 10, 158);
     border-top-left-radius: 30px;
 }
 .Footer-copy {
