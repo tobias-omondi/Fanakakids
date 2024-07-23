@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
 *{
     padding: 0px;
@@ -14,29 +14,35 @@
     font-weight: 500;
     font-style: normal;
 }
+.arrow_prev {
+    font-size: 25px;
+    font-weight: 900;
+    color: #000;
+}
+.arrow_prev:hover{
+    color: #df4881;
+    cursor: pointer;
+}
+.arrow_next{
+    font-size: 25px;
+    font-weight: 900;
+    color: #000; 
+}
+.arrow_next:hover{
+    color: #df4881;
+    cursor: pointer;
+}
 .Slider{
     display: flex;
-    justify-content: center;
+    align-items: center;
     justify-content: space-between;
 }
-.main-slider {
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-    width: 30%;
-    align-items: center;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+.main-slider{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    text-align: center;
 }
 .main-slider img{
-    width: 300px;
-    max-height: 400px;
-}
-.main-slider h3 {
-    text-align: center;
-}
-.main-slider p {
-    text-align: center;
-    margin-bottom: 15%;
+    width: 280px;
 }
 .btn-Gallery {
     width: fit-content; 
@@ -66,4 +72,4 @@
     border-radius: 0px;
 }
 
-  
+   */

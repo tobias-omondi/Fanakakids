@@ -2,6 +2,7 @@ import React from 'react'
 import { Link, animateScroll as scroll } from 'react-scroll';
 import './Navbar.css'
 import logo from '../Asset/logo.png'
+import { HiMiniBars3BottomRight } from "react-icons/hi2";
 
 const Navbar = () => {
   return (
