@@ -1,11 +1,13 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
-*{
+
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
-.Feedback-main{
+
+.Feedback-main {
     text-align: center;
     margin-top: 5%;
     padding: 10px 0px 20px;
@@ -14,42 +16,64 @@
     font-weight: 500;
     font-style: normal;
 }
-.arrow_prev {
-    font-size: 25px;
-    font-weight: 900;
-    color: #000;
-}
-.arrow_prev:hover{
-    color: #df4881;
-    cursor: pointer;
-}
-.arrow_next{
-    font-size: 25px;
-    font-weight: 900;
-    color: #000; 
-}
-.arrow_next:hover{
-    color: #df4881;
-    cursor: pointer;
-}
-.Slider{
-    display: flex;
+.swiper{
+    margin-top: 5%;
+    max-width: 1100px;
     align-items: center;
-    justify-content: space-between;
 }
-.main-slider{
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+.swiper-slide {
+    max-width: 300px;
+    max-height: 100%;
+    margin-left: 3rem;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.swiper-slide img {
+    width: 220px;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.swiper-slide h3 {
     text-align: center;
 }
-.main-slider img{
-    width: 280px;
+
+.swiper-slide p {
+    text-align: center;
 }
+
+.swiper-button-next,
+.swiper-button-prev {
+   width: 300px;
+   cursor: pointer;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 10px; /* Adjusted for better visibility */
+    color: #000; /* Ensure the color is set */
+    width: 300px;
+    cursor: pointer;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    opacity: 0.1;
+    border-radius: 90%;
+}
+
+.swiper-pagination-button{
+    margin-top: 10%;
+    color: #df4881;
+}
+
 .btn-Gallery {
-    width: fit-content; 
+    width: fit-content;
     margin: 0 auto;
-  }
-  
-  .btn-Gallery button {
+}
+
+.btn-Gallery button {
     box-sizing: border-box;
     border: 0;
     border-radius: 20px;
@@ -66,10 +90,9 @@
     align-items: center;
     width: 100%;
     font-size: 20px;
-  }
-.btn-Gallery button:hover{
+}
+
+.btn-Gallery button:hover {
     cursor: pointer;
     border-radius: 0px;
 }
-
-   */

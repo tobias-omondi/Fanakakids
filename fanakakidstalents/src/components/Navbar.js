@@ -3,6 +3,7 @@ import { Link, animateScroll as scroll } from 'react-scroll';
 import './Navbar.css'
 import logo from '../Asset/logo.png'
 import { HiMiniBars3BottomRight } from "react-icons/hi2";
+import { IoCloseCircleOutline } from "react-icons/io5";
 
 const Navbar = () => {
   return (
