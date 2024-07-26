@@ -21,6 +21,9 @@
     mix-blend-mode: multiply;
     border-radius: 30px;
 }
+.logo:hover{
+    cursor: pointer;
+}
 nav{
     display: flex;
     padding: 10px 0;

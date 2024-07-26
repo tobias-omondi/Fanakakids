@@ -13,10 +13,10 @@ const Navbar = () => {
       <nav>
         <img src={logo} alt='folder' className='logo'/>
         <ul>
-          <li><Link to='about' smooth={true} duration={500}>ABOUT US</Link></li>
-          <li><Link to='events' smooth={true} duration={500}>EVENT</Link></li>
-          <li><Link to='classes' smooth={true} duration={500}>CLASSES</Link></li>
-          <li><Link to='feedback' smooth={true} duration={500}>FEEDBACK</Link></li>
+          <li><Link to='about' smooth={true} duration={1500}>ABOUT US</Link></li>
+          <li><Link to='events' smooth={true} duration={1500}>EVENT</Link></li>
+          <li><Link to='classes' smooth={true} duration={1500}>CLASSES</Link></li>
+          <li><Link to='feedback' smooth={true} duration={1500}>FEEDBACK</Link></li>
         </ul>
         <div>
           <button onClick={() => navigate('/media')} className='gallery-btn'>GALLERY</button>
@@ -25,7 +25,7 @@ const Navbar = () => {
       <div className='content'>
         <h1>Your Music and Dance Journey Starts Here.</h1>
         <h3>Discover the harmonious world of ballet, piano, and violin.<br/> Find expert instructors, inspiring classes, and a vibrant community to nurture your passion.</h3>
-        <Link to='about' smooth={true} duration={500} className='Aboutus-btn'>ABOUT US</Link>
+        <Link to='classes' smooth={true} duration={1500} className='Aboutus-btn'>Classes Offered</Link>
       </div>
     </div>
   )
