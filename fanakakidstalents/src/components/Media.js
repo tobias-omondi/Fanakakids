@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Gallery = () => {
+const Media = () => {
   return (
     <div>
       <h1>Gallery</h1>
@@ -8,4 +8,4 @@ const Gallery = () => {
   )
 }
 
-export default Gallery
+export default Media
