@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Gallery.css';
 import { ImInsertTemplate } from 'react-icons/im';
+import Footer from './Footer';
 
 const Media = () => {
   const [images, setImages] = useState([]);
@@ -47,6 +48,7 @@ const Media = () => {
         </div>
 
       )}
+      <Footer />
     </div>
   );
 };
