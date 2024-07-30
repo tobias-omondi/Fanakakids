@@ -19,7 +19,7 @@ const Navbar = () => {
           <li><Link to='feedback' smooth={true} duration={1500}>FEEDBACK</Link></li>
         </ul>
         <div>
-          <button onClick={() => navigate('/media')} className='gallery-btn'>GALLERY</button>
+          <Link to='media' onClick={() => navigate('/media')} className='gallery-btn'>GALLERY</Link>
         </div>
       </nav>
       <div className='content'>

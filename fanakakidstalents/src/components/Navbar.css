@@ -57,6 +57,7 @@ nav ul li a:hover{
     font-size: 14px;
     border-radius: 30px;
     border-top-right-radius: 0;
+    cursor: pointer;
 }
 .Aboutus-btn{
     display: block;
