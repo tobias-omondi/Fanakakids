@@ -2,10 +2,6 @@
 {
   "gallery": [
     {
-      "type": "video",
-      "url": "https://res.cloudinary.com/djyfoquip/video/upload/v1718797729/VID-20240523-WA0078_kcq1im.mp4"
-    },
-    {
       "type": "image",
       "url": "https://res.cloudinary.com/djyfoquip/image/upload/v1718797707/IMG-20240523-WA0079_ykmuyl.jpg"
     },
