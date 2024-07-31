@@ -162,12 +162,12 @@
     }
     .links-page h2{
         margin-left: 1rem;
-        border-bottom: 3px solid red;
+        border-bottom: 3px solid yellowgreen;
         width: 30%;
     }
     .contacts-main h2 {
         margin-left: 1rem;
-        border-bottom: 3px solid red;
+        border-bottom: 3px solid yellowgreen;
         font-size: 20px;
         width: 50%;
     }
