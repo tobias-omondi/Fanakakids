@@ -124,7 +124,6 @@
         padding: 15px;
     }
     .links-page h2{
-        color: #ffff;
         text-decoration: none;
         padding: 20px 0px 20px;
         font-family: "Playfair Display", serif;
@@ -139,7 +138,6 @@
     .main-footer{
         background-color: bisque;
         margin-top: 10%;
-        color: #fff;
         flex-direction: column;
         justify-content: space-between;
     }
@@ -160,32 +158,26 @@
         padding: 10px;
     }
     .links-page a {
-        color: #ffff;
         margin-left: 1rem;
     }
     .links-page h2{
-        color: #ffff;
         margin-left: 1rem;
         border-bottom: 3px solid red;
         width: 30%;
     }
     .contacts-main h2 {
-        color: #ffff;
         margin-left: 1rem;
         border-bottom: 3px solid red;
         font-size: 20px;
         width: 50%;
     }
     .email-container a {
-        color: #ffff;
         margin-left: 1rem;
     }
     .email-container h4 {
-        color: #ffff;
         margin-left: 1rem;
     }
     .phones-container h4{
-        color: #ffff;
         margin-left: 1rem;
     }
 }
