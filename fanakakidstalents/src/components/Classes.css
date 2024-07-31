@@ -35,3 +35,41 @@
     max-width: 700px;
     margin-right: 20px;
 }
+@media (max-width: 991px){
+    .container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .main-container{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .paragrah-container p{
+        max-height: 430px;
+        max-width: 750px;
+    }
+    .paragrah-image img {
+        max-width: 750px;
+    }
+    
+}
+@media (max-width: 480px){
+    .container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .main-container{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .paragrah-container p{
+        max-height: 500px;
+        max-width: 300px;
+    }
+    .paragrah-image img {
+        max-width: 300px;
+    }
+    
+}

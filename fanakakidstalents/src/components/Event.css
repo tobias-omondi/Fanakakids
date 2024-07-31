@@ -70,3 +70,39 @@
     border-bottom-width: 5px;
 
 }
+@media(max-width: 991px) {
+    .menu-class{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .class-img img {
+        max-width: 400px;
+        max-height: 300px;
+        align-items: center;
+    }
+    .class-headings h3 {
+        text-align: center;
+        max-width: 400px;
+    }
+    .class-img p {
+        max-width: 300px;
+    }
+}
+@media(max-width: 480px) {
+    .menu-class{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .class-img img {
+        max-width: 250px;
+        max-height: 300px;
+        align-items: center;
+    }
+    .class-headings h3 {
+        text-align: center;
+        max-width: 200px;
+    }
+    .class-img p {
+        max-width: 300px;
+    }
+}
