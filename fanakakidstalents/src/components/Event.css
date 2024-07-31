@@ -83,6 +83,7 @@
     .class-headings h3 {
         text-align: center;
         max-width: 400px;
+        margin-left: 5rem
     }
     .class-img p {
         max-width: 300px;
