@@ -142,7 +142,7 @@
 }
 @media(max-width: 480px){
     .main-footer{
-        background-color: green;
+        background-color: bisque;
         margin-top: 10%;
         color: #fff;
         flex-direction: column;
