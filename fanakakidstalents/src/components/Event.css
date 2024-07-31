@@ -24,7 +24,7 @@
 }
 .menu-class{
     display: flex;
-    gap: 10rem;
+    gap: 8rem;
     width: 800px;
     margin-left: 50px;
     margin-top: 5%;
@@ -96,25 +96,29 @@
     .menu-class{
         flex-direction: column;
         justify-content: center;
+        margin-top: 5%;
+        gap: 3rem;
     }
     .class-img img {
         max-width: 250px;
         max-height: 300px;
         align-items: center;
-       
+        margin-left: -0.5rem;
     }
     .class-headings h3 {
         text-align: center;
-        max-width: 200px
+        max-width: 200px;
+        margin-left: -0.1rem;
     }
     .class-img p {
         max-width: 300px;
-  
+        margin-left: -0.4rem;
     }
     .class-headings h4 {
         text-align: center;
+        margin-left: -0.4rem;
     }
-    /* .class-img button {
-        margin-left: 1rem;
-    } */
+    .class-img button {
+        margin-left: -1rem;
+    }
 }
