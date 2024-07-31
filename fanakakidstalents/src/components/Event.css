@@ -101,22 +101,20 @@
         max-width: 250px;
         max-height: 300px;
         align-items: center;
-        margin-left: 1rem;
+       
     }
     .class-headings h3 {
         text-align: center;
-        max-width: 200px;
-        margin-left: 1rem;
+        max-width: 200px
     }
     .class-img p {
         max-width: 300px;
-        margin-left: 1rem;
+  
     }
     .class-headings h4 {
         text-align: center;
-        margin-left: 1rem;
     }
-    .class-img button {
+    /* .class-img button {
         margin-left: 1rem;
-    }
+    } */
 }
