@@ -22,7 +22,7 @@ const Events = () => {
   return (
     <div className='class-headings'>
       <h2>Events</h2>
-      <h4 style={{textAlign:'center'}}>Join us to be part of our Events<br/> as we have fun with our Children.</h4>
+      <h4 style={{textAlign:'center'}}>Join Us to be part of our Events<br/> as we have fun with our Children.</h4>
       <div className='menu-class'>
 
       <div className='class-img'>

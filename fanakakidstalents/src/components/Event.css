@@ -16,23 +16,18 @@
 }
 .class-headings h4 {
     text-align: center;
-    margin: 10px;
+    border-bottom-width: 5px;
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
-    font-size: 20px;
-    padding: 40px;
-    font-weight: 900;
+    font-weight: 600;
     font-style: normal;
-    border-bottom: 2px solid red;
-    border-bottom-width: 5px;
-    width: 100%;
 }
 .menu-class{
     display: flex;
     gap: 10rem;
     width: 800px;
     margin-left: 50px;
-    margin-top: 2%;
+    margin-top: 5%;
 }
 .class-img{
     width: 140%;
@@ -79,21 +74,22 @@
         justify-content: center;
     }
     .class-img img {
-        max-width: 400px;
+        max-width: 500px;
         max-height: 300px;
         align-items: center;
-        margin-left: 5rem;
+        margin-left: 8rem;
     }
     .class-headings h3 {
         text-align: center;
         max-width: 400px;
-        /* margin-left: 5rem */
+        margin-left: 8rem;
     }
     .class-img p {
         max-width: 300px;
+        margin-left: 8rem;
     }
-    .class-headings h4 {
-        text-align: center;
+    .class-img button {
+        margin-left: 5rem;
     }
 }
 @media(max-width: 480px) {
@@ -105,17 +101,22 @@
         max-width: 250px;
         max-height: 300px;
         align-items: center;
-        margin-left: 2rem;
+        margin-left: 1rem;
     }
     .class-headings h3 {
         text-align: center;
         max-width: 200px;
+        margin-left: 1rem;
     }
     .class-img p {
         max-width: 300px;
+        margin-left: 1rem;
     }
     .class-headings h4 {
         text-align: center;
+        margin-left: 1rem;
+    }
+    .class-img button {
         margin-left: 1rem;
     }
 }
