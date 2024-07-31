@@ -11,21 +11,21 @@ const Navbar = () => {
   return (
     <div className='hero'>
       <nav>
-        <img src={logo} alt='folder' className='logo'  onClick={() => navigate('/home/fanakakids')} />
+        <img src={logo} alt='folder' className='logo'  onClick={() => navigate('/')} />
         <ul>
-          <li><Link to='about' smooth={true} duration={1500} onClick={() => navigate('/home/fanakakids')} >ABOUT US</Link></li>
-          <li><Link to='events' smooth={true} duration={1500}onClick={() => navigate('/home/fanakakids')} >EVENT</Link></li>
-          <li><Link to='classes' smooth={true} duration={1500} onClick={() => navigate('/home/fanakakids')} >CLASSES</Link></li>
-          <li><Link to='feedback' smooth={true} duration={1500} onClick={() => navigate('/home/fanakakids')} >FEEDBACK</Link></li>
+          <li><Link to='about' smooth={true} duration={1500} onClick={() => navigate('/')} >ABOUT US</Link></li>
+          <li><Link to='events' smooth={true} duration={1500}onClick={() => navigate('/')} >EVENT</Link></li>
+          <li><Link to='classes' smooth={true} duration={1500} onClick={() => navigate('/')} >CLASSES</Link></li>
+          <li><Link to='feedback' smooth={true} duration={1500} onClick={() => navigate('/')} >FEEDBACK</Link></li>
         </ul>
         <div>
-          <Link to='media' onClick={() => navigate('/media/gallery')} className='gallery-btn'>GALLERY</Link>
+          <Link to='gallery' smooth={true} duration={1500}  onClick={() => navigate('/gallery')} className='gallery-btn'>GALLERY</Link>
         </div>
       </nav>
       <div className='content'>
         <h1>Your Music and Dance Journey Starts Here.</h1>
         <h3>Discover the harmonious world of ballet, piano, and violin.<br/> Find expert instructors, inspiring classes, and a vibrant community to nurture your passion.</h3>
-        <Link to='classes' smooth={true} duration={1500} className='Aboutus-btn' style={{cursor:'pointer'}}>Classes Offered</Link>
+        <Link to='classes' smooth={true} duration={1500} className='Aboutus-btn' style={{cursor:'pointer'}} onClick={() => navigate('/')}>Classes Offered</Link>
       </div>
     </div>
   )

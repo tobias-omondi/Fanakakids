@@ -112,3 +112,85 @@
     font-style: normal;
 }
 
+@media(max-width: 991px) {
+    .logo-footer{
+        margin-left: 10px;
+        display: block;
+        margin-top: 5%;
+    }
+    .logo-footer img {
+        width: 130px;
+    }
+    .social-icons{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        width: 100%;
+        padding: 15px;
+    }
+    .links-page h2{
+        color: #ffff;
+        text-decoration: none;
+        padding: 20px 0px 20px;
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-size: 20px;
+        font-style: normal;
+    
+    }
+}
+@media(max-width: 480px){
+    .main-footer{
+        background-color: green;
+        margin-top: 10%;
+        color: #fff;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .logo-footer{
+        margin-left: 2rem;
+        display: block;
+        margin-top: 8%;
+    }
+    .logo-footer img {
+        width: 80px;
+    }
+    .social-icons{
+        display: flex;
+        justify-content: center;
+        gap: 0.8rem;
+        margin-left: -8rem;
+        width: 100%;
+        padding: 10px;
+    }
+    .links-page a {
+        color: #ffff;
+        margin-left: 1rem;
+    }
+    .links-page h2{
+        color: #ffff;
+        margin-left: 1rem;
+        border-bottom: 3px solid red;
+        width: 30%;
+    }
+    .contacts-main h2 {
+        color: #ffff;
+        margin-left: 1rem;
+        border-bottom: 3px solid red;
+        font-size: 20px;
+        width: 50%;
+    }
+    .email-container a {
+        color: #ffff;
+        margin-left: 1rem;
+    }
+    .email-container h4 {
+        color: #ffff;
+        margin-left: 1rem;
+    }
+    .phones-container h4{
+        color: #ffff;
+        margin-left: 1rem;
+    }
+}

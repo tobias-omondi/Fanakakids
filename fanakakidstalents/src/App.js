@@ -14,7 +14,7 @@ function App() {
       <div className="App">
         <Navbar />
         <Routes>
-          <Route path="/home/fanakakids" element={
+          <Route path="/" element={
             <>
               <div id="about"><About /></div>
               <div id="events"><Events /></div>
@@ -22,7 +22,7 @@ function App() {
               <div id="feedback"><Feedback /></div>
             </>
           } />
-          <Route path="/media/gallery" element={<Media />} />
+          <Route path="gallery" element={<Media />} />
         </Routes>
       </div>
     </Router>
