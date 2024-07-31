@@ -61,3 +61,53 @@
     width: 650px;
     margin-right: 0.5rem;
 }
+@media(max-width: 991px){
+    .main{
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 8%;
+    }
+    .main-topic h3 {
+        font-size: 20px;
+        margin-left: 9rem;
+    }
+    .main-topic p{
+        font-size: 20px;
+        margin-left: 9rem;
+    }
+    .main-topic button {
+        font-size: 14px;
+        margin-left: 9rem;
+    }
+    .main-image img{
+        margin-top: 5%;
+        max-width: 750px;
+        margin-right: 0.5rem;
+        margin-left: 5rem;
+    }
+}
+@media(max-width: 480px){
+    .main{
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 8%;
+    }
+    .main-topic h3 {
+        font-size: 20px;
+        margin-left: 3rem;
+    }
+    .main-topic p{
+        font-size: 15px;
+        margin-left: 2rem;
+    }
+    .main-topic button {
+        font-size: 14px;
+        margin-left: 2rem;
+    }
+    .main-image img{
+        margin-top: 5%;
+        max-width: 300px;
+        margin-right: 0.5rem;
+        margin-left: 2rem;
+    }
+}

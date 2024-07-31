@@ -14,15 +14,18 @@
     font-style: normal;
     margin-top: 8%;
 }
-.class-headings h3 {
+.class-headings h4 {
     text-align: center;
     margin: 10px;
-    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-size: 20px;
+    padding: 40px;
+    font-weight: 900;
     font-style: normal;
     border-bottom: 2px solid red;
     border-bottom-width: 5px;
+    width: 100%;
 }
 .menu-class{
     display: flex;
@@ -79,14 +82,18 @@
         max-width: 400px;
         max-height: 300px;
         align-items: center;
+        margin-left: 5rem;
     }
     .class-headings h3 {
         text-align: center;
         max-width: 400px;
-        margin-left: 5rem
+        /* margin-left: 5rem */
     }
     .class-img p {
         max-width: 300px;
+    }
+    .class-headings h4 {
+        text-align: center;
     }
 }
 @media(max-width: 480px) {
@@ -98,6 +105,7 @@
         max-width: 250px;
         max-height: 300px;
         align-items: center;
+        margin-left: 2rem;
     }
     .class-headings h3 {
         text-align: center;
@@ -105,5 +113,9 @@
     }
     .class-img p {
         max-width: 300px;
+    }
+    .class-headings h4 {
+        text-align: center;
+        margin-left: 1rem;
     }
 }
