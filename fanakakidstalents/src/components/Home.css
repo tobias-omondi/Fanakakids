@@ -1,0 +1,32 @@
+.hero-container{
+    background-image: url(/src/Asset/fanakakidstalent.jpeg);
+    background-position: center;
+    background-size: cover;
+    transition: filter 0.3s ease;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    padding: 20px 15%;
+    /* filter: grayscale(100%); */
+}
+.content{
+    margin-top: 15rem;
+}
+.content h1  {
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+    color: rgb(94, 1, 1);
+    backdrop-filter: blur(2px);
+}
+.content h3 {
+  font-size: 1.7rem;
+  font-weight: 800;
+  text-align: center;
+  color: blanchedalmond;
+  backdrop-filter: blur(30%);
+  backdrop-filter: blur(10px);
+}

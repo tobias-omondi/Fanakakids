@@ -5,30 +5,24 @@
     margin: 0;
     box-sizing: border-box;
 }
-.hero{
-    background-image: url(/src/Asset/fanakakidstalent.jpeg);
-    background-position: center;
-    background-size: cover;
-    transition: filter 0.3s ease;
-    width: 100%;
-    min-height: 100vh;
-    overflow: hidden;
-    padding: 20px 15%;
-    /* filter: grayscale(100%); */
-}
+/* .hero{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+} */
 .logo{
     width: 110px;
     mix-blend-mode: multiply;
     border-radius: 30px;
+    margin-left: 10rem;
 }
 .logo:hover{
     cursor: pointer;
 }
 nav{
     display: flex;
-    padding: 10px 0;
     align-items: center;
     justify-content: space-between;
+    background-image:linear-gradient(45deg, #9c999a, #5d0469);
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
 }
 nav ul li{
     display: inline-block;
@@ -36,10 +30,10 @@ nav ul li{
     margin: 10px 15px;
 }
 nav ul li a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
     margin-right: 15px;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 20px;
     font-family: "Roboto Mono", monospace;
     font-optical-sizing: auto;
@@ -47,6 +41,7 @@ nav ul li a {
 }
 nav ul li a:hover{
     cursor: pointer;
+    color: #df4881;
 }
 .gallery-btn{
     display: inline-block;
@@ -58,6 +53,7 @@ nav ul li a:hover{
     border-radius: 30px;
     border-top-right-radius: 0;
     cursor: pointer;
+    margin-right: 6rem;
 }
 .Aboutus-btn{
     display: block;
@@ -73,24 +69,3 @@ nav ul li a:hover{
     text-align: center;
     width: 20%;
 } 
-.content{
-    margin-top: 6rem;
-}
-.content h1  {
-    font-size: 3rem;
-    font-weight: 800;
-    font-family: "Roboto Mono", monospace;
-    font-optical-sizing: auto;
-    font-style: normal;
-    text-align: center;
-    color: rgb(94, 1, 1);
-    backdrop-filter: blur(2px);
-}
-.content h3 {
-  font-size: 1.7rem;
-  font-weight: 800;
-  text-align: center;
-  color: blanchedalmond;
-  backdrop-filter: blur(30%);
-  backdrop-filter: blur(10px);
-}

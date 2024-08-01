@@ -7,6 +7,7 @@ import Events from './components/Events';
 import Classes from './components/Classes';
 import Media from './components/Media';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './components/Home';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={
             <>
+              <div id="home"><Home /></div>
               <div id="about"><About /></div>
               <div id="events"><Events /></div>
               <div id="classes"> <Classes /></div>
