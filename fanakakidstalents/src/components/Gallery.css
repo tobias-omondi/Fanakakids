@@ -3,18 +3,24 @@
 
 *{
     padding: 0;
-    box-sizing: border-box;
     margin: 0;
+    box-sizing: border-box;
 }
+.gallery-container .Gallery-headings {
+    background-image: url(/src/Asset/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; /* Adjust to fit container */
+    background-position: center; /* Center the image */
+    max-height: 900px; /* Or use vh for viewport-based height */
+    padding: 6rem;
+  }
+  
 .Gallery-headings{
-    background-image: linear-gradient(45deg, #df4881, #c430d7);
-    margin-top: -50px;
-    color: #fff;
+    color: #fff
 }
 .Gallery-headings h1 {
     text-align: center;
-    margin-top: 5%;
-    padding: 10px 0px 20px;
+    padding: 10px 0px 10px;
     font-family: "Edu AU VIC WA NT Hand", cursive;
     font-optical-sizing: auto;
     font-weight: 500;
@@ -31,6 +37,7 @@
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+    font-size: 25px;
 }
 .image-grid{
     -webkit-column-count: 3;
@@ -39,7 +46,7 @@
     -webkit-column-width: 33%;
     -moz-column-width: 33%;
     padding: 0 12px;
-    margin-top: 5%;
+    margin-top: 2%;
   }
   
 .image-grid .gallery-grid{
