@@ -86,7 +86,8 @@ nav ul li a:hover{
 }
 @media (max-width: 768px) {
     nav {
-        flex-direction: column;
+        flex-direction: flex;
+        justify-content: space-between;
         align-items: flex-start;
         padding: 10px;
     }
@@ -111,7 +112,8 @@ nav ul li a:hover{
     }
 
     .menu-toggle {
-        display: block; /* Show the hamburger icon */
+        display: flex; 
+        justify-content: space-between;
         cursor: pointer;
     }
 

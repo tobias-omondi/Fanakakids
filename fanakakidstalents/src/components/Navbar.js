@@ -1,39 +1,81 @@
 import React, { useState } from 'react';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 import './Navbar.css';
-import logo from '../Asset/logo.png';
-import { HiMiniBars3BottomRight } from "react-icons/hi2";
-import { IoCloseCircleOutline } from "react-icons/io5";
+import { AppBar, Toolbar, IconButton, Typography, Stack, Menu, MenuItem } from '@mui/material';
+import CatchingPokemonIcon from '@mui/icons-material/CatchingPokemon';
+import MenuIcon from '@mui/icons-material/Menu';
 import { useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [anchorEl, setAnchorEl] = useState(null);
   const navigate = useNavigate();
 
-  const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
+  const openMenu = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+
+  const closeMenu = () => {
+    setAnchorEl(null);
   };
 
   return (
-    <div className='hero'>
-      <nav>
-        <img src={logo} alt='folder' className='logo' onClick={() => navigate('/')} />
-        <div className="menu-toggle" onClick={toggleMenu}>
-          {menuOpen ? <IoCloseCircleOutline size={30} /> : <HiMiniBars3BottomRight size={30} />}
-        </div>
-        <ul className={menuOpen ? 'active' : ''}>
-          <li><Link to='home' smooth={true} duration={1500} onClick={() => navigate('/')} >HOME</Link></li>
-          <li><Link to='about' smooth={true} duration={1500} >ABOUT US</Link></li>
-          <li><Link to='events' smooth={true} duration={1500}>EVENT</Link></li>
-          <li><Link to='classes' smooth={true} duration={1500} >CLASSES</Link></li>
-          <li><Link to='feedback' smooth={true} duration={1500} >FEEDBACK</Link></li>
-        </ul>
-        <div>
-          <Link to='gallery' smooth={true} duration={1500} onClick={() => navigate('/gallery')} className='gallery-btn'>GALLERY</Link>
-        </div>
-      </nav>
-    </div>
-  )
-}
+    <AppBar position='fixed' sx={{ backgroundColor: 'white' }}>
+      <Toolbar sx={{ justifyContent: 'space-between' }}>
+        {/* Logo and Title for mobile screens */}
+        <IconButton
+          size='large'
+          color='inherit'
+          edge='start'
+          aria-label='logo'
+          sx={{ color: 'pink', display: { xs: 'flex', md: 'none' } }}
+          onClick={() => navigate('/')}
+        >
+          <CatchingPokemonIcon />
+        </IconButton>
+        <Typography variant="h6" sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, color: 'black' }}>
+          My Web
+        </Typography>
+        {/* Mobile menu toggle */}
+        <Stack direction='row' spacing={2} sx={{ display: { xs: 'flex', md: 'none' } }}>
+          <IconButton
+            size='large'
+            color='inherit'
+            edge='start'
+            aria-label='menu'
+            onClick={openMenu}
+          >
+            <MenuIcon />
+          </IconButton>
+          <Menu
+            anchorEl={anchorEl}
+            open={Boolean(anchorEl)}
+            onClose={closeMenu}
+            PaperProps={{
+              sx: {
+                width: '250px',
+              },
+            }}
+          >
+            <MenuItem onClick={closeMenu}>
+              <Link to="/" style={{ textDecoration: 'none', color: 'black' }}>HOME</Link>
+            </MenuItem>
+            <MenuItem onClick={closeMenu}>
+              <Link to="about" style={{ textDecoration: 'none', color: 'black' }}>ABOUT US</Link>
+            </MenuItem>
+            <MenuItem onClick={closeMenu}>
+              <Link to="events" style={{ textDecoration: 'none', color: 'black' }}>EVENTS</Link>
+            </MenuItem>
+            <MenuItem onClick={closeMenu}>
+              <Link to="classes" style={{ textDecoration: 'none', color: 'black' }}>CLASSES</Link>
+            </MenuItem>
+            <MenuItem onClick={closeMenu}>
+              <Link to="gallery" style={{ textDecoration: 'none', color: 'black' }}>GALLERY</Link>
+            </MenuItem>
+          </Menu>
+        </Stack>
+      </Toolbar>
+    </AppBar>
+  );
+};
 
 export default Navbar;
