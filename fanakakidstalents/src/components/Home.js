@@ -17,11 +17,6 @@ const Home = () => {
                 <Link to='classes' smooth={true} duration={1500} className='Aboutus-btn' style={{ cursor: 'pointer' }}>
                     Classes Offered
                 </Link>
-                <div>
-                    <Link to='gallery' smooth={true} duration={1500} onClick={() => navigate('/gallery')} className='gallery-btn'>
-                        GALLERY
-                    </Link>
-                </div>
             </div>
         </div>
     );

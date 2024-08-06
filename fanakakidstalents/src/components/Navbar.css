@@ -3,3 +3,13 @@
     mix-blend-mode: multiply;
     cursor: pointer;
 }
+@media (max-width: 991px){
+    .logo{
+        height: 70px;
+    }
+}
+@media (max-width: 480px){
+    .logo{
+        height: 60px;
+    }
+}

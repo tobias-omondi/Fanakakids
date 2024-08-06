@@ -69,45 +69,44 @@
     }
     .main-topic h3 {
         font-size: 20px;
-        margin-left: 9rem;
     }
     .main-topic p{
         font-size: 20px;
-        margin-left: 9rem;
+        margin-left: 1.5rem;
     }
     .main-topic button {
-        font-size: 14px;
-        margin-left: 9rem;
+        font-size: 15px;
+        margin-left: 1.5rem;
     }
     .main-image img{
         margin-top: 5%;
-        max-width: 750px;
+        max-width: 480px;
         margin-right: 0.5rem;
-        margin-left: 5rem;
+        margin-left: 0.5rem;
     }
 }
 @media(max-width: 480px){
     .main{
         flex-direction: column;
         justify-content: center;
-        margin-top: 8%;
+        margin-top: 15%;
     }
     .main-topic h3 {
         font-size: 20px;
-        margin-left: 3rem;
+        margin-left: 0.5rem;
     }
     .main-topic p{
         font-size: 15px;
-        margin-left: 1rem;
+        margin-left: 0.4rem;
     }
     .main-topic button {
         font-size: 14px;
-        margin-left: 1rem;
+        margin-left: 0.5rem;
     }
     .main-image img{
-        margin-top: 5%;
-        max-width: 300px;
+        margin-top: 15%;
+        max-width: 340px;
         margin-right: 0.5rem;
-        margin-left: 2rem;
+        margin-left: 0.6rem;
     }
 }

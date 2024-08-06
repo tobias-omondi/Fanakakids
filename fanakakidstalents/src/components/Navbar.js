@@ -51,7 +51,7 @@ const Navbar = () => {
               }}
             >
               <MenuItem onClick={closeMenu}>
-                <ScrollLink to="/" smooth={true} duration={1500} style={{ textDecoration: 'none', color: 'black' }}>HOME</ScrollLink>
+              <RouterLink to="/" style={{ textDecoration: 'none', color: 'black' }}>HOME</RouterLink>
               </MenuItem>
               <MenuItem onClick={closeMenu}>
                 <ScrollLink to="about" smooth={true} duration={1500} style={{ textDecoration: 'none', color: 'black' , cursor:'pointer' }}>ABOUT US</ScrollLink>

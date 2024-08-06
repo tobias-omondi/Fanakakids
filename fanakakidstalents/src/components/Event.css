@@ -93,6 +93,9 @@
     }
 }
 @media(max-width: 480px) {
+    .class-headings h2 {
+        margin-top: 15%;
+    }
     .menu-class{
         flex-direction: column;
         justify-content: center;
@@ -100,25 +103,25 @@
         gap: 3rem;
     }
     .class-img img {
-        max-width: 250px;
+        max-width: 320px;
         max-height: 300px;
         align-items: center;
-        margin-left: -0.5rem;
+        margin-left: -2.5rem;
     }
     .class-headings h3 {
         text-align: center;
-        max-width: 200px;
-        margin-left: -0.1rem;
+        max-width: 190px;
+        margin-left: -2rem;
     }
     .class-img p {
-        max-width: 300px;
-        margin-left: -0.4rem;
+        width: 100%;
+        margin-left: -2rem;
     }
     .class-headings h4 {
         text-align: center;
-        margin-left: -0.4rem;
+        margin-left: -2rem;
     }
     .class-img button {
-        margin-left: -1rem;
+        margin-left: -2rem;
     }
 }
