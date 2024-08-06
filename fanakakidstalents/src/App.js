@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import About from './components/About';
-import Feedback from './components/Feedback';
 import Events from './components/Events';
 import Classes from './components/Classes';
 import Media from './components/Media';
@@ -17,14 +16,13 @@ function App() {
         <Routes>
           <Route path="/" element={
             <>
-              <div id="home"><Home /></div>
+              <div id="/"><Home /></div>
               <div id="about"><About /></div>
               <div id="events"><Events /></div>
-              <div id="classes"> <Classes /></div>
-              <div id="feedback"><Feedback /></div>
+              <div id="classes"><Classes /></div>
             </>
           } />
-          <Route path="gallery" element={<Media />} />
+          <Route path="/media" element={<Media />} />
         </Routes>
       </div>
     </Router>

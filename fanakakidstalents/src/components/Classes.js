@@ -1,9 +1,11 @@
 import React from 'react';
 import './Classes.css';
 import classAsset from '../Asset/classes.jpg'
+import Feedback  from './Feedback';
 
 const Classes = () => {
   return (
+    <>
     <div className='container'>
       <h1>Classes</h1>
       <div className='main-container'>
@@ -21,6 +23,8 @@ const Classes = () => {
       </div>
     </div>
     </div>
+    <Feedback />
+    </>
   )
 }
 
