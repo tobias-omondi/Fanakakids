@@ -1,94 +1,83 @@
-.hero-container{
+.hero-container {
     background-image: url(/src/Asset/fanakakidstalent.jpeg);
     background-position: center;
     background-size: cover;
     transition: filter 0.3s ease;
     width: 100%;
     min-height: 100vh;
-    overflow: hidden;
     padding: 20px 15%;
     margin-top: 3rem;
-    /* filter: grayscale(100%); */
+    display: flex; /* Added flex for centering content */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    overflow: hidden;
 }
-.content{
-    margin-top: 15rem;
+
+.content {
+    text-align: center; /* Center text for better alignment */
+    color: rgb(94, 1, 1); /* Set default text color */
 }
-.content h1  {
+
+.content h1 {
     font-size: 3rem;
     font-weight: 800;
     font-family: "Roboto Mono", monospace;
-    font-optical-sizing: auto;
-    font-style: normal;
     text-align: center;
-    color: rgb(94, 1, 1);
     backdrop-filter: blur(2px);
 }
+
 .content h3 {
-  font-size: 1.7rem;
-  font-weight: 800;
-  text-align: center;
-  color: blanchedalmond;
-  backdrop-filter: blur(30%);
-  backdrop-filter: blur(10px);
+    font-size: 1.7rem;
+    font-weight: 800;
+    color: blanchedalmond;
+    backdrop-filter: blur(10px);
 }
-.Aboutus-btn{
+
+.Aboutus-btn {
     box-sizing: border-box;
     border: 0;
     border-radius: 20px;
     padding: 1em 1.8em;
-    display: flex;
-    transition: 0.2s background;
+    display: inline-flex; /* Changed to inline-flex for better button styling */
+    transition: background 0.2s ease;
     align-items: center;
     gap: 0.6em;
     font-weight: bold;
     color: #fff;
     margin-top: 3%;
     background-image: linear-gradient(45deg, #df4881, #c430d7);
+    cursor: pointer; /* Ensure cursor is a pointer */
 }
-/* media screen friendly */
+
+/* Media Queries */
 @media (max-width: 991px) {
-    .hero-container{
-        max-width: 100%;
-    }
-    .content{
+    .content {
         margin-top: 10rem;
     }
     .content h1 {
-        font-size: 35px;
-        width: 100%;
+        font-size: 2.5rem; /* Adjust font size for medium screens */
     }
     .content h3 {
-        font-size: 20px;
-        width: 100%;
+        font-size: 1.5rem; /* Adjust font size for medium screens */
     }
-    .Aboutus-btn{
-        width: 40%;
-        margin-top: 20px;
-        padding: 10px;
+    .Aboutus-btn {
+        width: 50%; /* Adjust button width for medium screens */
+        padding: 0.8em; /* Adjust padding */
     }
 }
 
-/* for small screen */
-
 @media (max-width: 480px) {
-    .hero-container{
-        max-width: 100%;
-    }
-    .content{
+    .content {
         margin-top: 12rem;
     }
     .content h1 {
-        font-size: 35px;
-        margin-right: 3rem;
-        width: 100%;
+        font-size: 1.8rem; /* Smaller font size for small screens */
     }
     .content h3 {
-        font-size: 20px;
-        width: 100%;
+        font-size: 1.2rem; /* Smaller font size for small screens */
     }
-    .Aboutus-btn{
-        width: 60%;
-        margin-top: 20px;
-        padding: 10px;
+    .Aboutus-btn {
+        width: 70%; /* Adjust button width for small screens */
+        padding: 0.6em; /* Adjust padding */
     }
 }
