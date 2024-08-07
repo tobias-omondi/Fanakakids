@@ -9,89 +9,40 @@
 
 .Feedback-main {
     text-align: center;
-    margin-top: 5%;
+    margin-top: 10%;
     padding: 10px 0px 20px;
     font-family: "Edu AU VIC WA NT Hand", cursive;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
 }
-.swiper{
-    margin-top: 5%;
-    max-width: 1100px;
-    align-items: center;
+.Feedback-main h1{
+    font-size: 20px;
 }
-.swiper-slide {
-    max-width: 300px;
-    max-height: 100%;
-    margin-left: 3rem;
-    justify-content: center;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+.feedback-item{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    margin: 2rem;
 }
-
-.swiper-slide img {
-    width: 220px;
-    align-items: center;
-    margin-left: 2rem;
+.feedback-item img {
+    max-width: 200px;
 }
-
-.swiper-slide h3 {
-    text-align: center;
-}
-
-.swiper-slide p {
-    text-align: center;
-}
-
-.swiper-button-next,
-.swiper-button-prev {
-   width: 300px;
-   cursor: pointer;
-}
-
-.swiper-button-next::after,
-.swiper-button-prev::after {
-    font-size: 10px; /* Adjusted for better visibility */
-    color: #000; /* Ensure the color is set */
-    width: 300px;
-    cursor: pointer;
-}
-
-.swiper-button-next:hover,
-.swiper-button-prev:hover {
-    opacity: 0.1;
-    border-radius: 90%;
-}
-.swiper-pagination-button{
-    margin-top: 10%;
-    color: #df4881;
-}
-
 .btn-Gallery {
-    width: fit-content;
-    margin: 0 auto;
-}
-
-.btn-Gallery button {
+    display: inline-block; /* Ensures the link behaves like a button */
     box-sizing: border-box;
     border: 0;
     border-radius: 20px;
-    padding: 20px 100px;
-    display: flex;
+    padding: 20px 40px;
     transition: 0.2s background;
-    align-items: center;
-    gap: 0.6em;
     font-weight: bold;
     color: #fff;
-    margin-top: 5%;
+    margin: 5% auto 0; /* Center the button and add top margin */
     background-image: linear-gradient(45deg, #df4881, #c430d7);
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    font-size: 20px;
+    text-align: center; /* Center text inside the link */
+    font-size: 16PX;
+    text-decoration: none; /* Remove underline from link */
 }
 
-.btn-Gallery button:hover {
+.btn-Gallery:hover {
     cursor: pointer;
-    border-radius: 0px;
+    border-radius: 0px; /* Change border radius on hover */
 }
