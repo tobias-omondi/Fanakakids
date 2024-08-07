@@ -17,8 +17,11 @@
 .main-container{
     display: flex;
     justify-content: center;
-    /* margin-top: 2%; */
-    margin-left: 20px;
+}
+.paragrah-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .paragrah-container p{
     font-size: 20px;
@@ -28,13 +31,16 @@
     font-style: normal;
     padding: 40px;
     color: #fff;
-    /* height: 60lvh; */
+    max-width: 650px;
+    margin-left: 1rem;
     background-image: linear-gradient(45deg, #df4881, #c430d7);
 }
-.paragrah-image img {
-    max-width: 700px;
+/*  */
+.paragrah-container img {
+    max-width: 450px;
     margin-right: 20px;
 }
+/* large tablets */
 @media (max-width: 991px){
     .container{
         flex-direction: column;
@@ -43,17 +49,27 @@
     .main-container{
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         width: 100%;
     }
+    .paragrah-container{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
     .paragrah-container p{
-        max-height: 430px;
-        max-width: 750px;
+        padding: 40px;
+        max-width: 700px; 
+        margin-left: 0px;
+        max-height: 100lvh;
     }
-    .paragrah-image img {
-        max-width: 750px;
+    .paragrah-container img {
+        max-width: 600px;
+        margin-right: 20px;
     }
-    
+   
 }
+/* small phones */
 @media (max-width: 480px){
     .container{
         flex-direction: column;
@@ -63,15 +79,18 @@
         flex-direction: column;
         justify-content: center;
         width: 100%;
-        margin-left: 14px;
+        margin-left: 0px;
     }
     .paragrah-container p{
         max-height: 500px;
         max-width: 320px;
-    }
-    .paragrah-image img {
+        margin-left: -1rem;
+        max-height: 100lvh;
+    } 
+    .paragrah-container img {
         max-width: 320px;
         max-height: 200px;
-    }
+        margin-left: 0.2rem;
+    } 
     
 }
