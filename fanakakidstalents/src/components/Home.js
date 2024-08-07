@@ -14,7 +14,7 @@ const Home = () => {
                     Discover the harmonious world of ballet, piano, and violin.<br />
                     Find expert instructors, inspiring classes, and a vibrant community to nurture your passion.
                 </h3>
-                <Link to='classes' smooth={true} duration={1500} className='Aboutus-btn' style={{ cursor: 'pointer' }}>
+                <Link to='classes' smooth={true} duration={1500} className='Aboutus-btn' style={{ cursor: 'pointer', width:'30%' }}>
                     Classes Offered
                 </Link>
             </div>

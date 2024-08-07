@@ -39,7 +39,7 @@ const Footer = () => {
         </div>
       </div>
     </div>
-    <p style={{color:'#000', textAlign:'center', backgroundColor:'bisque', marginTop:'5px'}}>&copy; {currentYear} fanakaclub. All rights reserved.</p>
+    <p style={{color:'#fff', textAlign:'center', backgroundColor:'#000', marginTop:'5px'}}>&copy; {currentYear} fanakaclub. All rights reserved.</p>
     </div>
   );
 }

@@ -6,9 +6,9 @@
     box-sizing: border-box;
 }
 .main-footer{
-    background-color: bisque;
+    background-color: #000;
     margin-top: 10%;
-    color: #000;
+    color: #ffff;
     display: flex;
     justify-content: space-between;
 }
@@ -34,7 +34,7 @@
    gap: 1rem;
 }
 .links-page h2{
-    color: #000;
+    color: #fff;
     text-decoration: none;
     padding: 20px 0px 20px;
     font-family: "Playfair Display", serif;
@@ -44,7 +44,7 @@
 
 }
 .links-page a {
-    color: #000;
+    color: #fff;
     text-decoration: none;
     padding: 20px 0px 20px;
     font-family: "Playfair Display", serif;
@@ -57,7 +57,7 @@
     border-top-left-radius: 30px;
 }
 .contacts-main h2 {
-    color: #000;
+    color: #fff;
     text-decoration: none;
     padding: 20px 0px 20px;
     font-family: "Playfair Display", serif;
@@ -77,7 +77,7 @@
     font-style: normal;
 }
 .email-container a {
-    color: #000;
+    color: #fff;
     text-decoration: none;
     padding: 20px 0px 20px;
     font-family: "Playfair Display", serif;
@@ -136,7 +136,6 @@
 }
 @media(max-width: 480px){
     .main-footer{
-        background-color: bisque;
         margin-top: 10%;
         flex-direction: column;
         justify-content: space-between;

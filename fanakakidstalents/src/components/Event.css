@@ -48,6 +48,7 @@
 .class-img img {
     max-width: 100%; /* Responsive image */
     height: auto; /* Maintain aspect ratio */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 .class-img button {
@@ -69,6 +70,7 @@
     font-size: 15px;
     font-family: "Playfair Display", serif;
     font-weight: 400;
+    margin-top: 10%;
 }
 
 .class-img h3 {
