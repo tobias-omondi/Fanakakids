@@ -1,182 +1,133 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-.main-footer{
-    background-color: #000;
-    margin-top: 10%;
-    color: #ffff;
-    display: flex;
-    justify-content: space-between;
-}
-.logo-footer{
-    margin-left: 12rem;
-    display: block;
-    margin-top: 5%;
-}
-.logo-footer img {
-    width: 200px;
-}
-.social-icons{
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    width: 100%;
-    padding: 20px;
-}
-.links-page{
-   margin-top: 5%;
-   display: flex;
-   flex-direction: column;
-   gap: 1rem;
-}
-.links-page h2{
-    color: #fff;
-    text-decoration: none;
-    padding: 20px 0px 20px;
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
 
-}
-.links-page a {
-    color: #fff;
-    text-decoration: none;
-    padding: 20px 0px 20px;
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-}
-.links-page a:hover{
-    color: rgb(250, 10, 158);
-    border-top-left-radius: 30px;
-}
-.contacts-main h2 {
-    color: #fff;
-    text-decoration: none;
-    padding: 20px 0px 20px;
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-}
-.contacts-main{
-    margin-top: 5%;
-    margin-right: 5rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1.4rem; 
-    font-weight: 500;
-    font-family: "Roboto Mono", monospace;
-    font-optical-sizing: auto;
-    font-style: normal;
-}
-.email-container a {
-    color: #fff;
-    text-decoration: none;
-    padding: 20px 0px 20px;
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    /* padding: 10px 0px 20px;
-    font-family: "Edu AU VIC WA NT Hand", cursive;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal; */
-}
-.email-container a:hover{
-    color: rgb(250, 10, 158);
-    border-top-left-radius: 30px;
-}
 .Footer-copy {
     background-color: greenyellow;
 }
-.Footer-copy p {
-    gap: 20px;
-    font-size: 16px;
-    padding: 20px 0px 20px;
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+
+.main-footer {
+    background-color: #000;
+    margin-top: 10%;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    justify-content: space-between; /* Space between items */
+    padding: 20px; /* Add padding for better spacing */
 }
 
+.logo-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center logo and social icons */
+    margin: 5% 0; /* Vertical margin */
+}
+
+.logo-footer img {
+    width: 200px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem; /* Adjust gap for social icons */
+    padding: 10px 0; /* Add vertical padding */
+}
+
+.links-page {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.links-page h2, .contacts-main h2 {
+    color: #fff;
+    padding: 20px 0;
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    text-align: center; /* Center headings */
+}
+
+.links-page a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 0; /* Reduced padding */
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    text-align: center; /* Center links */
+}
+
+.links-page a:hover {
+    color: rgb(250, 10, 158);
+}
+
+.contacts-main {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    align-items: center; /* Center align contact information */
+}
+
+.email-container a {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+}
+
+.email-container a:hover {
+    color: rgb(250, 10, 158);
+}
+
+.Footer-copy p {
+    font-size: 16px;
+    padding: 20px 0;
+    font-family: "Playfair Display", serif;
+    text-align: center; /* Center footer text */
+}
+
+/* Media Queries */
 @media(max-width: 991px) {
-    .logo-footer{
-        margin-left: 10px;
-        display: block;
-        margin-top: 5%;
+    .logo-footer {
+        margin: 5% auto; /* Center logo on medium screens */
     }
     .logo-footer img {
         width: 130px;
     }
-    .social-icons{
-        display: flex;
-        justify-content: center;
-        gap: 1rem;
-        width: 100%;
-        padding: 15px;
+    .social-icons {
+        gap: 1rem; /* Adjust gap for social icons */
     }
-    .links-page h2{
-        text-decoration: none;
-        padding: 20px 0px 20px;
-        font-family: "Playfair Display", serif;
-        font-optical-sizing: auto;
-        font-weight: 600;
-        font-size: 20px;
-        font-style: normal;
-    
+    .links-page h2 {
+        font-size: 20px; /* Adjust heading size */
     }
 }
-@media(max-width: 480px){
-    .main-footer{
-        margin-top: 10%;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    .logo-footer{
-        margin-left: 2rem;
-        display: block;
-        margin-top: 8%;
+
+@media(max-width: 480px) {
+    .main-footer {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items */
     }
     .logo-footer img {
         width: 120px;
     }
-    .social-icons{
-        display: flex;
-        justify-content: center;
-        gap: 0.8rem;
-        margin-left: -7rem;
-        width: 100%;
-        padding: 10px;
+    .social-icons {
+        gap: 0.5rem; /* Reduce gap on small screens */
     }
     .links-page a {
-        margin-left: 1rem;
+        margin: 0; /* Remove margin on links */
     }
-    .links-page h2{
-        margin-left: 1rem;
-        border-bottom: 3px solid yellowgreen;
-        width: 30%;
+    .links-page h2, .contacts-main h2 {
+        border-bottom: 3px solid yellowgreen; /* Add border for emphasis */
+        width: 100%; /* Full width */
+        text-align: center; /* Center text */
     }
-    .contacts-main h2 {
-        margin-left: 1rem;
-        border-bottom: 3px solid yellowgreen;
-        font-size: 20px;
-        width: 50%;
-    }
-    .email-container a {
-        margin-left: 1rem;
-    }
-    .email-container h4 {
-        margin-left: 1rem;
-    }
-    .phones-container h4{
-        margin-left: 1rem;
+    .contacts-main {
+        align-items: center; /* Center contact information */
     }
 }
