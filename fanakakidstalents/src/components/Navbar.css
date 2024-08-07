@@ -3,6 +3,26 @@
     mix-blend-mode: multiply;
     cursor: pointer;
 }
+
+.navbar {
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.navbar:hover {
+    background-color: maroon; /* Change background color on hover */
+}
+
+.navbar a {
+    color: black; /* Default link color */
+    text-decoration: none; /* Remove underline from links */
+    padding: 10px 15px; /* Add padding for better spacing */
+    transition: color 0.3s ease; /* Smooth transition for link color */
+}
+
+.navbar:hover a {
+    color: white; /* Change link color to white on hover */
+}
+
 @media (max-width: 991px){
     .logo{
         height: 70px;

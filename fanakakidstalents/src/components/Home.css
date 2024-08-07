@@ -36,7 +36,7 @@
 .Aboutus-btn {
     box-sizing: border-box;
     border: 0;
-    border-radius: 20px;
+    border-radius: 0px 10px;
     padding: 1em 1.8em;
     display: inline-flex; /* Changed to inline-flex for better button styling */
     transition: background 0.2s ease;
@@ -47,6 +47,9 @@
     margin-top: 3%;
     background-image: linear-gradient(45deg, #df4881, #c430d7);
     cursor: pointer; /* Ensure cursor is a pointer */
+}
+.Aboutus-btn:hover{
+    border-radius: 0px;
 }
 
 /* Media Queries */
